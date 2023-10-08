@@ -26,3 +26,19 @@
     padding-right: 230px;
     padding-bottom: 150px;
 }
+
+#nombre,
+#apellido {
+    width: 49%;
+    margin-right: 4px;
+    display: inline-block;
+}
+
+#enviar {
+    width: 100%;
+}
+
+.custom-footer-menu li a {
+    text-decoration: none;
+    margin-right: 20px;
+}
