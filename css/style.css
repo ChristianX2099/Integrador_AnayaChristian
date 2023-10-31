@@ -29,7 +29,7 @@
 
 #nombre,
 #apellido {
-    width: 49%;
+    width: 100%;
     margin-right: 4px;
     display: inline-block;
 }
@@ -42,3 +42,6 @@
     text-decoration: none;
     margin-right: 20px;
 }
+
+/* */
+
