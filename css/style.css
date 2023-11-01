@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .background-image-custom {
     background-position: right bottom;
     background-size: cover;
@@ -27,16 +33,7 @@
     padding-bottom: 150px;
 }
 
-#nombre,
-#apellido {
-    width: 100%;
-    margin-right: 4px;
-    display: inline-block;
-}
 
-#enviar {
-    width: 100%;
-}
 
 .custom-footer-menu li a {
     text-decoration: none;
@@ -45,3 +42,172 @@
 
 /* */
 
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-- Form --*/
+
+
+input {
+    width: 35%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+input:focus {
+    background-color: rgb(165, 241, 235);
+    color: black;
+}
+
+textarea {
+    width: 635px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(197, 195, 195);
+}
+
+textarea:focus {
+    background-color: rgb(165, 241, 235);
+    color: black;
+}
+
+#enviar {
+    width: 640px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+/*-- JavaScript --*/
+
+#Tipos {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Azul {
+    border: 1px solid rgba(0, 0, 255, 0.753);
+    padding: 15px;
+    margin-right: 10px;
+}
+
+#Verde {
+    border: 1px solid rgba(0, 102, 255, 0.801);
+    padding: 15px;
+    margin-right: 10px;
+}
+
+#Amarillo {
+    border: 1px solid rgb(255, 196, 0);
+    padding: 15px;
+    margin-right: 10px;
+}
+
+#Venta {
+    position: relative;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#Caja {
+    padding-top: 20px;
+}
+
+#nombre {
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+}
+
+#apellido {
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+}
+
+#correo2 {
+    width: 72%;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+}
+
+#rotulos {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 730px;
+    padding-left: 185px;
+}
+
+#Cantidad,#Categoria {
+    width: 35%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+}
+
+
+.Botones {
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #90c90cd8;
+    border-radius: 8px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+#valorInput1 {
+    background-color: #82cbff;
+    color: rgb(45, 45, 131);
+    width: 600px;
+    height: auto;
+    margin: 30px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+#testR0{
+    width: 630px;
+    text-align: left;
+}
+
+
+@media (max-width: 750px) {
+    #Formulario {
+        margin-left: 5%;
+    }
+
+    input {
+        width: 420px;
+    }
+
+    textarea {
+        width: 420px;
+
+    }
+
+    #enviar {
+        width: 420px;
+    }
+
+    #valorInput1 {
+        width: 350px;
+    }
+
+    #testR0{
+        width: 420px;
+        text-align: left;
+    }
+}
