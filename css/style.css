@@ -33,7 +33,16 @@
     padding-bottom: 150px;
 }
 
+#nombre,
+#apellido {
+    width: 100%;
+    margin-right: 4px;
+    display: inline-block;
+}
 
+#enviar {
+    width: 100%;
+}
 
 .custom-footer-menu li a {
     text-decoration: none;
@@ -79,7 +88,7 @@ textarea:focus {
 }
 
 #enviar {
-    width: 640px;
+    width: 560px;
     height: 50px;
     border-radius: 8px;
     border: 1px solid rgba(197, 195, 195, 0.623);
@@ -183,31 +192,3 @@ textarea:focus {
     text-align: left;
 }
 
-
-@media (max-width: 750px) {
-    #Formulario {
-        margin-left: 5%;
-    }
-
-    input {
-        width: 420px;
-    }
-
-    textarea {
-        width: 420px;
-
-    }
-
-    #enviar {
-        width: 420px;
-    }
-
-    #valorInput1 {
-        width: 350px;
-    }
-
-    #testR0{
-        width: 420px;
-        text-align: left;
-    }
-}
