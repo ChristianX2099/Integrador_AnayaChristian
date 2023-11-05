@@ -51,13 +51,6 @@
 
 /* */
 
-
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /*-- Form --*/
 
 
@@ -178,14 +171,6 @@ textarea:focus {
     border: 1px solid rgba(197, 195, 195, 0.623);
 }
 
-#valorInput1 {
-    background-color: #82cbff;
-    color: rgb(45, 45, 131);
-    width: 600px;
-    height: auto;
-    margin: 30px;
-    text-align: left; /* Alinea el texto a la izquierda */
-}
 
 #testR0{
     width: 630px;
@@ -201,7 +186,7 @@ textarea:focus {
 
 /*FORM JAVASCRIPT*/
 .containerjs{
-    max-width: 1170px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
@@ -248,7 +233,24 @@ textarea:focus {
 }
 
 #categoriajs{
-    width: 305px;
-    height: 50px;
+    width: 100%;
+    padding: 0.7em;
+    border-color: rgb(207, 207, 207);
+    color: rgb(125, 125, 125);
+}
+
+#valorInput1 {
+    width: 100%;
+    background-color:rgb(199, 221, 255);
+    color: rgb(34, 70, 139);
+    height: auto;
+    padding: .7em;
+    border-color: rgb(125, 168, 233);;
+}
+
+@media (max-width: 500px) {
+    #Tipos{
+        flex-direction: column;
+    }
 
 }
