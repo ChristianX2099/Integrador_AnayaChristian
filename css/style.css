@@ -192,3 +192,63 @@ textarea:focus {
     text-align: left;
 }
 
+
+
+.titulojs{
+    text-align: center;
+}
+
+
+/*FORM JAVASCRIPT*/
+.containerjs{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.contact-wrapper0{
+    box-shadow: 0 0 5px 0 rgb(14, 45, 42);
+}
+
+.contact-wrapper0 >*{
+    padding: 1em;
+}
+
+.formulariojs form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulariojs form .block {
+    grid-column: 1 / 3;
+}
+
+.formulariojs form p{
+    margin: 0;
+    padding: .7em;
+}
+
+.formulariojs form button,
+.formulariojs form input{
+    width: 100%;
+    padding: 0.7em;
+    margin: 0;
+}
+
+.formulariojs form label{
+    margin-bottom: 2%;
+}
+
+.formulariojs form button{
+    background-color: rgb(146, 204, 76);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+}
+
+#categoriajs{
+    width: 305px;
+    height: 50px;
+
+}
