@@ -174,7 +174,6 @@
             <p>Tienen un descuento</p>
             <p><b>80%</b></p>
             <p>*Presentar documentación</p>
-
         </div>
 
         <div id="Verde">
@@ -184,7 +183,6 @@
             <p>*Presentar documentación</p>
         </div>
 
-
         <div id="Amarillo">
             <h5><b>Junior</b></h5>
             <p>Tienen un descuento</p>
@@ -192,10 +190,7 @@
             <p>*Presentar documentación</p>
         </div>
     </div>
-
-
     <br>
-
 
     <!--FORM JAVASCRIP-->
     <div class="containerjs">
@@ -205,12 +200,12 @@
         </div>
         <div class="contact-wrapper0">
             <div class="formulariojs">
-                <form action="">
+                <form action="" id="caja2">
                     <p>
-                        <input type="text" name="nombrejv" placeholder="Nombre">
+                        <input type="text" name="nombrejv" placeholder="Nombre" >
                     </p>
                     <p>
-                        <input type="text" name="apellidojv" placeholder="Apellido">
+                        <input type="text" name="apellidojv" placeholder="Apellido" >
                     </p>
 
                     <p class="block">
@@ -218,7 +213,7 @@
                     </p>
                     <p>
                         <label for="cantidadjs">Cantidad</label>
-                        <input type="text" name="cantidadjs" id="cantidadjs" placeholder="cantidad">
+                        <input type="number" name="cantidadjs" id="cantidadjs" placeholder="cantidad" >
                     </p>
                     <p>
                         <label for="categoriajs">Categoria</label><br>
@@ -233,14 +228,10 @@
                         <label for="" id="valorInput1">Total a pagar: $ -</label>
                     </p>
                     <p>
-                        <button type="submit">
-                            Borrar
-                        </button>
+                        <button type="reset" id="Borrar">Borrar</button>
                     </p>
                     <p>
-                        <button type="submit">
-                            Resumen
-                        </button>
+                        <button type="submit" id="Resumen">Resumen</button>
                     </p>
                 </form>
             </div>
@@ -248,48 +239,8 @@
 
 
     </div>
-    <!-- <div class="container text-center">
-        <p id="Ticket">VENTA</p>
-        <h2><b>VALOR DE TICKET $200</b></h2>
-    </div>
-
-
-    <div id="Venta" class="container text-center">
-        <form id="Caja">
-            <label for="nombre"></label>
-            <input type="text" name="nombre" id="nombre2" placeholder="Nombre" required>
-            <label for="apellido"></label>
-            <input type="text" name="apellido" id="apellido2" placeholder="Apellido" required>
-            <br>
-            <label for="correo"></label>
-            <input type="email" name="correo" id="correo2" placeholder="Correo" required>
-            <br>
-
-            <div id="rotulos">
-                <label for="Cantidad">Cantidad</label>
-                <label for="Categoria">Categoria</label>
-            </div>
-
-            <input type="number" name="Cantidad" id="Cantidad" placeholder="Cantidad" required>
-
-            <select name="Categoria" id="Categoria">
-
-                <option id="Estudiante" value="Estudiante">Estudiante</option>
-                <option id="Trainee" value="Trainee">Trainee</option>
-                <option id="Junior" value="Junior">Junior</option>
-            </select>
-
-            <br>
-            <label for="" id="valorInput1"></label>
-
-            <br>
-            <button type="reset" id="Borrar" class="Botones">Borrar</button>
-            <button onclick="ResumenFormulario()" id="Resumen" class="Botones">Resumen</button>
-        </form>
-    </div> -->
-
-
-
+    <!--FIN FORMJS-->
+    <!--FOOTER-->
     <br>
     <footer class="bg-dark text-white text-center py-3">
         <div class="container">

@@ -53,7 +53,6 @@
 
 /*-- Form --*/
 
-
 input {
     width: 35%;
     height: 50px;
@@ -117,74 +116,13 @@ textarea:focus {
     margin-right: 10px;
 }
 
-#Venta {
-    position: relative;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-#Caja {
-    padding-top: 20px;
-}
-
-#nombre {
-    border-radius: 5px;
-    border: 1px solid rgb(197, 195, 195);
-}
-
-#apellido {
-    border-radius: 5px;
-    border: 1px solid rgb(197, 195, 195);
-}
-
-#correo2 {
-    width: 72%;
-    border-radius: 5px;
-    border: 1px solid rgb(197, 195, 195);
-}
-
-#rotulos {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    width: 730px;
-    padding-left: 185px;
-}
-
-#Cantidad,#Categoria {
-    width: 35%;
-    height: 50px;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid rgb(197, 195, 195);
-}
 
 
-.Botones {
-    margin-left: 20px;
-    width: 300px;
-    height: 50px;
-    color: white;
-    background-color: #90c90cd8;
-    border-radius: 8px;
-    border: 1px solid rgba(197, 195, 195, 0.623);
-}
-
-
-#testR0{
-    width: 630px;
-    text-align: left;
-}
-
-
+/*FORM JAVASCRIPT*/
 
 .titulojs{
     text-align: center;
 }
-
-
-/*FORM JAVASCRIPT*/
 .containerjs{
     max-width: 800px;
     margin-left: auto;
