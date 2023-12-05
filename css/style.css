@@ -38,46 +38,10 @@
     margin-right: 20px;
 }
 
-
-/*-- Form --*/
-#nombre,
-#apellido {
-    width: 100%;
-    display: inline-block;
+.textorador{
+    margin-bottom: 0;
 }
 
-input {
-    height: 50px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid rgba(197, 195, 195, 0.623);
-    border-radius: 8px;
-}
-
-input:focus {
-    background-color: rgb(165, 241, 235);
-    color: black;
-}
-
-textarea {
-    width: 35%;
-    height: 80px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid rgb(197, 195, 195);
-}
-
-textarea:focus {
-    background-color: rgb(165, 241, 235);
-    color: black;
-}
-
-#enviar {
-    width: 100%;
-    height: 50px;
-
-    border: 1px solid rgba(197, 195, 195, 0.623);
-}
 
 /*-- JavaScript --*/
 
@@ -110,7 +74,38 @@ textarea:focus {
 }
 
 
+/*-- Form --*/
+input {
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+    border-radius: 8px;
+}
 
+#nombre,
+#apellido {
+    height: 30px;
+    display: inline-block;
+}
+#charla{
+    font-size: 1.2em;
+}
+.formulariojs form .text2 {
+    padding: 0;
+    padding-left: .7em;
+    padding-bottom: .7em;
+}
+
+
+input:focus {
+    background-color: rgb(165, 241, 235);
+    color: black;
+}
+textarea:focus{
+    background-color: rgb(165, 241, 235);
+    color: black;
+}
 /*FORM JAVASCRIPT*/
 
 .titulojs{
@@ -123,12 +118,12 @@ textarea:focus {
     padding: 1.5em;
 }
 
-.contact-wrapper0{
+/* .contact-wrapper0{
     box-shadow: 0 0 5px 0 rgb(14, 45, 42);
-}
+} */
 
 .contact-wrapper0 >*{
-    padding: 1em;
+    padding: 0.6em;
 }
 
 .formulariojs form {
@@ -142,7 +137,7 @@ textarea:focus {
 
 .formulariojs form p{
     margin: 0;
-    padding: .7em;
+    padding: .6em;
 }
 
 .formulariojs form button,
@@ -161,7 +156,9 @@ textarea:focus {
     background-color: rgb(146, 204, 76);
     border: none;
     color: rgb(255, 255, 255);
-    padding: 1em;
+    /* padding: 1em; */
+    font-size: 1.2em;
+    text-size-adjust: 10px;
 }
 
 #categoriajs{
